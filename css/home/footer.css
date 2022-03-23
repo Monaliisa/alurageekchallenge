@@ -6,18 +6,34 @@ footer {
 
 .rodape-container {
   display: flex;
+  justify-content: center;
   align-items: flex-start;
-  width: 1136px;
+  max-width: 1136px;
+  margin-top: 64px;
+  margin-bottom: 64px;
   height: 240px;
   left: 152px;
   top: 64px;
+  gap: 112px;
 }
 
 .rodape-left {
   display: flex;
-  flex-direction: column;
+  gap: 112px;
 }
-
+.rodape-left ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.rodape-left li {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
 .footer {
   background-color: #ffffff;
   padding: 32px;
@@ -31,4 +47,19 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-name {
+  margin-bottom: 8px;
+}
+
+.input-name {
+  border: none;
+  outline: none;
+  width: 560px;
+  height: 56px;
 }
