@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  background-color: #ffffff;  
+}
+
+.header-container {
+  width: 100%;
+  width: 1136px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.header-container-direita {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  gap: 20px;
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px;
+  width: 393px;
+  height: 40px;  
+  top: 5px;
+  background: #f5f5f5;
+  border-radius: 20px;
+}
+
+.search-header input {
+  width: 90%;
+  border: transparent;
+  padding: 8px 0px;
+  margin-right: 20px;
+  background-color: #f5f5f5;
+}
+
+.botao {
+  padding: 16px;
+  width: 180px;
+  height: 50px;
+  left: 954px;
+  top: 32px;
+  /* Azul/100% */
+  border: 1px solid #2a7ae4;
+  box-sizing: border-box;
+}
+
+.botao p {
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2a7ae4;
+}
+
+.botao a {
+  text-decoration: none;
+}

@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #eaf2fd;
+}
+
+.rodape-container {
+  display: flex;
+  align-items: flex-start;
+  width: 1136px;
+  height: 240px;
+  left: 152px;
+  top: 64px;
+}
+
+.rodape-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 32px;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
